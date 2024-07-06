@@ -4,8 +4,7 @@ import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
-//! Essa anotção deve ser posta para que posa ser extendida
-@MappedSuperclass
+@MappedSuperclass //todo: Essa anotção deve ser posta para que posa ser extendida
 @Getter
 @Setter
 public abstract class BaseItem {
