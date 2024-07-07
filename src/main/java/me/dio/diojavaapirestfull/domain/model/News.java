@@ -1,4 +1,4 @@
-package domain.model;
+package me.dio.diojavaapirestfull.domain.model;
 
 import jakarta.persistence.Entity;
 
