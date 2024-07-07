@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+#      Na primeira vez deve-se colocar o ddl em create para criar as tabelas
+#      Posteriormente, deve-se alterar para validate para que a mesmas não sejam recriadas todas as vezes
+      ddl-auto: validate
+
+
